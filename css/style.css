@@ -1,8 +1,31 @@
+/* -- Background -- */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #ad5389;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #ad5389, #3c1053);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #ad5389, #3c1053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* -- Navbar -- */
+.navbar {
+    font-size: 13px;
+    margin-top: 30px;
+    min-height: 50px;
+    max-height: 55px;
+}
+.nav-item {
+    color: #ffffff;
+    padding: 17px 5px 0 5px;
+    font-weight: bold;
+}
+.nav-item:hover {
+    color: #3c1053;
+}
+.navbar-brand {
+    color: #ffffff;
+}
+.text-logo {
+    width: 120px;
+    margin-top: 11px;
 }
 hr {
     border:         none;
@@ -10,6 +33,7 @@ hr {
     height:         4vh;
     width:          1px;
 }
+/* -- Header -- */
 h1 {
     color: #ffffff;
     margin-top: 110px;
@@ -20,10 +44,6 @@ p {
     color: #ffffff;
     padding-top: 10px;
     margin-left: 90px;
-}
-.text-logo {
-    width: 120px;
-    margin-top: 11px;
 }
 .divider {
     color: transparent;
@@ -40,23 +60,6 @@ p {
 }
 .btn:hover {
     background-color: #3c1053;
-    color: #ffffff;
-}
-.navbar {
-    font-size: 13px;
-    margin-top: 30px;
-    min-height: 50px;
-    max-height: 55px;
-}
-.nav-item {
-    color: #ffffff;
-    padding: 17px 5px 0 5px;
-    font-weight: bold;
-}
-.nav-item:hover {
-    color: #3c1053;
-}
-.navbar-brand {
     color: #ffffff;
 }
 .phone {
